@@ -1,0 +1,106 @@
+/* Base styling */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Flex container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  Heading styling */
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.empty_message {
+    color: red;
+}
+
+/* Item list styling */
+
+ul {
+    width: 90vw;
+    height: 30vh;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 8px rgb(30, 43, 68);
+    padding: 5px;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul li:hover {
+    border: 2px solid black;
+}
+
+/* Form section styling  */
+
+
+.form-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 70vw;
+    padding: 10px;
+}
+
+/* Button styling */
+
+.submit_bttn {
+    color: white;
+    background-color: orange;
+    font-size: 1rem;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.delete_bttn {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(43, 51, 156);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    max-width: 20px 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.delete_bttn:hover {
+    color: white;
+    background-color: red;
+}
